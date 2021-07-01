@@ -1,2 +1,2 @@
 # AdvancedJava
-Repository for the AdvancedJava Platzi Course
+Repository for the Platzi's AdvancedJava ourse
