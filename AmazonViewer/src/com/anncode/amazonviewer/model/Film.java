@@ -1,16 +1,16 @@
 package com.anncode.amazonviewer.model;
 
-public class Film {
-	
+public abstract class Film {
+
 	private String title;
 	private String genre;
 	private String creator;
 	private int duration;
 	private short year;
 	private boolean viewed;
-	
-	
-	
+
+
+	public Film() {}
 	public Film(String title, String genre, String creator, int duration) {
 		super();
 		this.title = title;
@@ -18,7 +18,7 @@ public class Film {
 		this.creator = creator;
 		this.duration = duration;
 	}
-	
+
 	public String getTitle() {
 		return title;
 	}
@@ -56,18 +56,18 @@ public class Film {
 		}else {
 			visto = "No";
 		}
-		
+
 		return visto;
 	}
-	
+
 	public boolean getIsViewed() {
 		return viewed;
 	}
 	public void setViewed(boolean viewed) {
 		this.viewed = viewed;
 	}
-	
-	
+
+	public abstract void view();
 	
 
 }
