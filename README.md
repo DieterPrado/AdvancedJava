@@ -87,7 +87,7 @@ class OuterClass {
 
 - JDBC, its an API for Java that manages java connections to databases.
 
-- How to interact with a database using: drivermanager, connection, statement, preparedstatement, resultset. These methods are:
+- How to interact with a database using: drivermanager, connection, statement, preparedstatement, resultset. These classes methods are:
 - DriverManager.getConnection() - Establish and return a connection object.
 - Connection.createStatement() - Returns a statement object to execute SQL statements.
 - Statement.executeQuery() - Execute a SQL SELECT statement and returns a result set object.
