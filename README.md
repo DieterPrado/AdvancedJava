@@ -85,7 +85,7 @@ class OuterClass {
 
 - To use *try catch* to catch and error and know where it is. The try statement allows you to define a block of code to be tested for errors while it is being executed. The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
 
-- JDBC, its an API for Java that manages java connections to databases. Some methods are:
+- JDBC, its an API for Java that manages java connections to databases.
 
 - How to interact with a database using: drivermanager, connection, statement, preparedstatement, resultset. These methods are:
 - DriverManager.getConnection() - Establish and return a connection object.
